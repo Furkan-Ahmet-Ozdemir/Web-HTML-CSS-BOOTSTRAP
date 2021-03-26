@@ -1,0 +1,40 @@
+.d-Menu{
+	background: #333;
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.d-Menu ul li {
+	list-style: none;
+}
+.d-Menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+.d-Menu ul li a {
+	text-decoration: none;
+	color:white;
+	padding: 10px;
+	display: block;
+	border-bottom: 1px solid #fff;
+}
+.d-Menu ul li a:hover{
+	background-color: black;
+}
+.d-Menu ul li ul {
+	display: none;
+
+}
+.d-Menu ul li:hover ul{
+	display: block;
+	position: absolute;
+	margin:-41px 0px 0px 300px;
+}
+.d-Menu ul li ul li a{
+	padding: 10px;
+	font-size: 15px;
+	background-color: #282828;
+	border-bottom:1px solid #222;
+	width:150px;
+
+}
